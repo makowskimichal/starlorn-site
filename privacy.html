@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starlorn Privacy Policy</title>
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--night:#141A33;--vellum:#EDE6D6;--wax:#A63D40;--ink:#1B1E2B;--ash:#5B6072}
+*{box-sizing:border-box}
+body{margin:0;background:var(--vellum);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.65}
+header{background:var(--night);color:var(--vellum)}
+header div{max-width:760px;margin:0 auto;padding:24px 16px;display:flex;align-items:center;gap:14px}
+header img{width:40px;height:40px}
+header a{color:var(--vellum);text-decoration:none;font-family:Fraunces,serif;font-weight:600;font-size:26px}
+main{max-width:760px;margin:0 auto;padding:48px 16px 80px}
+h1{font-family:Fraunces,serif;font-weight:600;font-size:44px;line-height:1.1;margin:0 0 8px}
+h2{font-family:Fraunces,serif;font-weight:600;font-size:24px;margin:40px 0 8px}
+.updated{color:var(--ash);margin:0 0 32px}
+a{color:var(--wax)}a:hover{color:#7E2B2F}
+li{margin:6px 0}
+</style>
+</head>
+<body>
+<header><div><img src="icon.png" alt=""><a href="index.html">starlorn</a></div></header>
+<main>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: 30 October 2026</p>
+
+<p>Starlorn is a Gmail client for Android, Windows and Linux, developed as an independent, non-commercial project. This policy explains what data Starlorn accesses and what happens to it. The short version: your mail stays on your device and with Google. Starlorn has no servers that receive your email.</p>
+
+<h2>Data Starlorn accesses</h2>
+<p>When you sign in with Google, Starlorn asks for permission to:</p>
+<ul>
+<li><strong>Read, organise and send your Gmail messages</strong> (scope <code>gmail.modify</code>): to show your inbox, archive, delete, label and mark messages, and send the replies and messages you write.</li>
+<li><strong>See your email address and basic profile</strong> (<code>openid</code>, <code>email</code>): to tell your accounts apart in the app.</li>
+</ul>
+
+<h2>How the data is used and stored</h2>
+<ul>
+<li>Messages are downloaded directly from Google's Gmail API to your device and cached in a local database on that device, so the app works quickly and offline.</li>
+<li>Sign-in tokens are kept in your operating system's secure storage (Android Keystore / Google Play services, Windows Credential Manager, or the Linux secret service).</li>
+<li>Your email content is never sent to the developer, to Starlorn servers or to any third party. Starlorn does not use analytics, advertising or tracking SDKs, and does not process your mail with AI.</li>
+<li>Remote images in emails are blocked by default to stop senders from tracking when you open a message.</li>
+</ul>
+
+<h2>Push notifications</h2>
+<p>To notify you about new mail, Starlorn may use Google Cloud Pub/Sub and Firebase Cloud Messaging. These services only carry a signal that an account has changed, such as the account identifier and a change number. They never carry message contents. The app then fetches new mail directly from Gmail.</p>
+
+<h2>Sharing</h2>
+<p>Starlorn does not sell, share or transfer your data to anyone. The only parties involved are you and Google, whose handling of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Starlorn's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Deleting your data</h2>
+<ul>
+<li>Removing an account in Starlorn, or uninstalling the app, deletes all locally cached mail and tokens for that account.</li>
+<li>You can revoke Starlorn's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Starlorn is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published on this page with an updated date.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:makowskimichal99@gmail.com">makowskimichal99@gmail.com</a></p>
+</main>
+</body>
+</html>
